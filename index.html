@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dra. Catalina Reyes | Cirurgiã-dentista</title>
+  <meta name="description" content="Dra. Catalina Reyes, cirurgiã-dentista. Odontologia contemporânea com técnica, delicadeza e atendimento humanizado. Agende sua avaliação.">
+  <meta name="theme-color" content="#171715">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dra. Catalina Reyes | Cirurgiã-dentista">
+  <meta property="og:description" content="Seu sorriso. Sua melhor versão. Odontologia contemporânea com atendimento humanizado.">
+  <meta property="og:image" content="assets/images/dra-catalina.jpg">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="brand" href="#inicio" aria-label="Dra. Catalina Reyes, início">
+        <svg class="brand__mono" viewBox="0 0 48 48" aria-hidden="true">
+          <circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="1"/>
+          <text x="24" y="30.5" text-anchor="middle" font-family="Playfair Display, serif" font-size="19" fill="currentColor">CR</text>
+        </svg>
+        <span class="brand__text">
+          <span class="brand__name">Dra. Catalina Reyes</span>
+          <span class="brand__role">Cirurgiã-dentista</span>
+        </span>
+      </a>
+
+      <nav class="nav__links" aria-label="Principal">
+        <a href="#sobre">Sobre mim</a>
+        <a href="#tratamentos">Tratamentos</a>
+        <a href="#trabalho">Meu trabalho</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a class="btn btn--gold nav__cta" href="#contato">Agendar consulta</a>
+
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="menu-mobile" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+    </div>
+
+    <div class="menu" id="menu-mobile" aria-hidden="true">
+      <nav class="menu__inner" aria-label="Menu mobile">
+        <a href="#sobre">Sobre mim</a>
+        <a href="#tratamentos">Tratamentos</a>
+        <a href="#trabalho">Meu trabalho</a>
+        <a href="#contato">Contato</a>
+        <a class="btn btn--gold" href="#contato">Agendar consulta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow hero__in" style="--d:.1s">Odontologia contemporânea</p>
+          <h1 class="hero__title">
+            <span class="line"><span class="line__in" style="--d:.2s">Seu sorriso.</span></span>
+            <span class="line"><span class="line__in" style="--d:.35s">Sua <em>melhor</em></span></span>
+            <span class="line"><span class="line__in" style="--d:.5s"><em>versão.</em></span></span>
+          </h1>
+          <p class="hero__lead hero__in" style="--d:.75s">Cuidado odontológico que une técnica, delicadeza e um olhar atento para aquilo que faz você ser único.</p>
+          <div class="hero__actions hero__in" style="--d:.95s">
+            <a class="btn btn--dark" href="#contato">Agende sua consulta</a>
+            <a class="btn btn--line" href="#sobre">Conheça a doutora</a>
+          </div>
+          <p class="hero__tag hero__in" style="--d:1.15s"><span class="rule"></span>Naturalidade em cada detalhe</p>
+        </div>
+
+        <div class="hero__media">
+          <div class="arch hero__arch">
+            <img src="assets/images/dra-catalina.jpg" alt="Dra. Catalina Reyes em seu consultório" width="824" height="1111" fetchpriority="high">
+          </div>
+          <div class="arch-outline" aria-hidden="true"></div>
+          <div class="seal" aria-hidden="true">
+            <svg viewBox="0 0 120 120">
+              <defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+              <circle cx="60" cy="60" r="58" fill="#171715"/>
+              <circle cx="60" cy="60" r="35" fill="none" stroke="#B7A17C" stroke-width=".8"/>
+              <g class="seal__text">
+                <text font-family="DM Sans, sans-serif" font-size="8.4" letter-spacing="3.1" fill="#B7A17C"><textPath href="#circ">CIRURGIÃ-DENTISTA · ODONTOLOGIA · </textPath></text>
+              </g>
+              <text x="60" y="67" text-anchor="middle" font-family="Playfair Display, serif" font-size="22" fill="#F4F0E9">CR</text>
+            </svg>
+          </div>
+          <span class="spark spark--a" aria-hidden="true"></span>
+          <span class="spark spark--b" aria-hidden="true"></span>
+        </div>
+      </div>
+      <a class="hero__scroll" href="#sobre" aria-label="Rolar para a próxima seção"><span></span></a>
+    </section>
+
+    <!-- ============ SOBRE ============ -->
+    <section class="section about" id="sobre">
+      <div class="container about__grid">
+        <figure class="about__media">
+          <div class="frame reveal-img" data-reveal="img">
+            <img src="assets/images/profilaxia-post.jpg" alt="Dra. Catalina Reyes realizando uma profilaxia dental" width="729" height="926" loading="lazy">
+          </div>
+          <span class="frame-line" aria-hidden="true"></span>
+        </figure>
+
+        <div class="about__text">
+          <p class="eyebrow" data-reveal>Sobre mim</p>
+          <h2 class="h2" data-reveal style="--d:.08s">Mais do que tratar dentes, cuido de pessoas.</h2>
+          <p class="lead" data-reveal style="--d:.16s">Acredito que um sorriso bonito começa com saúde, confiança e uma relação de cuidado. Por isso, cada atendimento é pensado de forma individual, respeitando sua história, suas necessidades e seus objetivos.</p>
+          <p data-reveal style="--d:.24s">Meu atendimento é humanizado do primeiro contato ao acompanhamento. Cada plano é montado de forma individualizada, com atenção aos detalhes que fazem o resultado parecer natural e durar.</p>
+          <div class="signature" data-reveal style="--d:.32s">
+            <span class="signature__name">Catalina Reyes</span>
+            <span class="signature__role">Cirurgiã-dentista · CRO-SP 163702</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRATAMENTOS ============ -->
+    <section class="section services" id="tratamentos">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow" data-reveal>Tratamentos</p>
+          <h2 class="h2" data-reveal style="--d:.08s">Seu sorriso em boas mãos.</h2>
+          <p class="lead" data-reveal style="--d:.16s">Do cuidado preventivo à reabilitação, cada tratamento começa por uma avaliação atenta e um plano feito para você.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card" data-reveal style="--d:0s">
+            <div class="card__top"><span class="card__num">01</span>
+              <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6c-4-3-12-3-14 4-1 6 2 10 3 16 1 6 2 14 5 14 3 0 3-8 6-8s3 8 6 8c3 0 4-8 5-14 1-6 4-10 3-16-2-7-10-7-14-4z"/><path d="M33 8l1.2 3.3L37.5 12.5l-3.3 1.2L33 17l-1.2-3.3-3.3-1.2 3.3-1.2z"/></svg>
+            </div>
+            <h3>Profilaxia e prevenção</h3>
+            <p>Limpeza profissional e orientações para manter a saúde e a beleza do sorriso por mais tempo.</p>
+          </article>
+
+          <article class="card" data-reveal style="--d:.1s">
+            <div class="card__top"><span class="card__num">02</span>
+              <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 26c4 8 10 12 16 12s12-4 16-12"/><path d="M12 24c3 4 7 6 12 6s9-2 12-6"/><path d="M24 6l1.6 4.4L30 12l-4.4 1.6L24 18l-1.6-4.4L18 12l4.4-1.6z"/></svg>
+            </div>
+            <h3>Estética do sorriso</h3>
+            <p>Clareamento e procedimentos estéticos com resultado harmônico, sem perder a naturalidade.</p>
+          </article>
+
+          <article class="card" data-reveal style="--d:.2s">
+            <div class="card__top"><span class="card__num">03</span>
+              <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 8c-4-3-12-2-13 5-1 6 3 10 4 16 1 5 2 11 5 11 2 0 2-6 4-6s2 6 4 6c3 0 4-6 5-11 1-6 5-10 4-16-1-7-9-8-13-5z"/><path d="M19 20c1.5 2 3 3 5 3s3.500-1 5-3"/></svg>
+            </div>
+            <h3>Restaurações</h3>
+            <p>Recuperação da forma, da função e da cor do dente com materiais e técnicas atuais.</p>
+          </article>
+
+          <article class="card" data-reveal style="--d:0s">
+            <div class="card__top"><span class="card__num">04</span>
+              <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 24h36"/><path d="M12 24c0-8 5-14 12-14s12 6 12 14"/><path d="M12 24c0 8 5 14 12 14s12-6 12-14"/><path d="M24 10v28"/></svg>
+            </div>
+            <h3>Reabilitação oral</h3>
+            <p>Planejamento completo para devolver conforto ao mastigar, sorrir e falar.</p>
+          </article>
+
+          <article class="card" data-reveal style="--d:.1s">
+            <div class="card__top"><span class="card__num">05</span>
+              <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="21" cy="21" r="12"/><path d="M30 30l11 11"/><path d="M16 21h10M21 16v10"/></svg>
+            </div>
+            <h3>Avaliação odontológica</h3>
+            <p>Uma consulta atenta para entender sua saúde bucal, suas dúvidas e o que você deseja.</p>
+          </article>
+
+          <article class="card" data-reveal style="--d:.2s">
+            <div class="card__top"><span class="card__num">06</span>
+              <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="7" width="28" height="35" rx="3"/><path d="M18 7v-1h12v1"/><path d="M16 20h16M16 27h16M16 34h9"/></svg>
+            </div>
+            <h3>Plano de cuidado individualizado</h3>
+            <p>Etapas, prioridades e prazos definidos com você, de forma clara e sem pressa.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ IMPACTO ============ -->
+    <section class="impact" aria-label="Frase institucional">
+      <div class="impact__bg" aria-hidden="true">
+        <img src="assets/images/profilaxia-detalhe.jpg" alt="" loading="lazy" width="449" height="280">
+      </div>
+      <div class="container impact__inner">
+        <span class="impact__mark" data-reveal aria-hidden="true">“</span>
+        <blockquote class="impact__quote" data-reveal style="--d:.1s">
+          Um sorriso saudável transforma a forma como você se sente, <em>e como se apresenta ao mundo.</em>
+        </blockquote>
+        <p class="impact__by" data-reveal style="--d:.25s"><span class="rule"></span>Dra. Catalina Reyes</p>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIÊNCIA / TRABALHO ============ -->
+    <section class="section work" id="trabalho">
+      <div class="container work__grid">
+        <div class="work__text">
+          <p class="eyebrow" data-reveal>Meu trabalho</p>
+          <h2 class="h2" data-reveal style="--d:.08s">Detalhes que fazem você se sentir bem.</h2>
+          <ul class="pillars">
+            <li data-reveal style="--d:.16s">
+              <span class="pillar__mark">I</span>
+              <div><h3>Escuta e acolhimento</h3><p>Antes de qualquer procedimento, ouço o que você sente e o que espera do seu sorriso.</p></div>
+            </li>
+            <li data-reveal style="--d:.26s">
+              <span class="pillar__mark">II</span>
+              <div><h3>Planejamento individual</h3><p>Cada plano de tratamento é construído para o seu caso, sem protocolos prontos.</p></div>
+            </li>
+            <li data-reveal style="--d:.36s">
+              <span class="pillar__mark">III</span>
+              <div><h3>Transparência em cada etapa</h3><p>Você entende o que será feito, por quê e quanto tempo leva, antes de decidir.</p></div>
+            </li>
+          </ul>
+        </div>
+
+        <figure class="work__media">
+          <div class="arch-soft reveal-img" data-reveal="img">
+            <img src="assets/images/consultorio-clareamento.jpg" alt="Consultório odontológico durante um atendimento de clareamento" width="828" height="830" loading="lazy">
+          </div>
+          <span class="work__badge" data-reveal style="--d:.3s" aria-hidden="true">CR</span>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section class="section contact" id="contato">
+      <div class="container contact__grid">
+        <div class="contact__intro">
+          <p class="eyebrow" data-reveal>Contato</p>
+          <h2 class="h2" data-reveal style="--d:.08s">Seu próximo sorriso começa aqui.</h2>
+          <p class="lead" data-reveal style="--d:.16s">Agende uma avaliação e vamos conversar sobre o que você deseja para a saúde e a beleza do seu sorriso.</p>
+          <div data-reveal style="--d:.24s">
+            <!-- DEMO: troque 5511900000000 pelo número real (código do país + DDD + número, sem símbolos) -->
+            <a class="btn btn--dark btn--wa" href="https://wa.me/5511900000000?text=Ol%C3%A1%2C%20Dra.%20Catalina!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.600 15.100L2 22l5-1.300A10 10 0 1 0 12 2zm0 1.800a8.200 8.200 0 1 1-4.200 15.300l-.3-.2-2.900.8.8-2.800-.2-.3A8.200 8.200 0 0 1 12 3.800zM8.700 7.500c-.2 0-.5.100-.7.400-.3.300-1 1-1 2.400s1 2.800 1.200 3c.1.200 2 3.200 5 4.400 2.500 1 3 .8 3.500.7.600-.1 1.700-.7 1.900-1.400.2-.7.200-1.200.2-1.400l-.5-.3-1.700-.8c-.2-.1-.4-.1-.6.100l-.8 1c-.1.200-.3.200-.5.100-.3-.1-1.100-.4-2-1.200-.8-.7-1.300-1.500-1.500-1.800-.1-.3 0-.4.100-.5l.4-.5.300-.4v-.5l-.8-1.900c-.2-.5-.4-.4-.6-.4z"/></svg>
+              Agendar pelo WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- DEMO: dados fictícios, substitua pelos reais -->
+        <dl class="contact__list">
+          <div data-reveal style="--d:.12s"><dt>Telefone</dt><dd><a href="tel:+5511900000000">(11) 90000-0000</a></dd></div>
+          <div data-reveal style="--d:.2s"><dt>Endereço</dt><dd>Rua das Acácias, 123, sala 45<br>Jardim Exemplo, São Paulo/SP</dd></div>
+          <div data-reveal style="--d:.28s"><dt>Horário de atendimento</dt><dd>Segunda a sexta, das 9h às 19h<br>Sábado, das 9h às 13h</dd></div>
+          <div data-reveal style="--d:.36s"><dt>Instagram</dt><dd><a href="https://www.instagram.com/dracatalinareyes" target="_blank" rel="noopener">@dracatalinareyes</a></dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__id">
+        <p class="footer__name">Dra. Catalina Reyes</p>
+        <p class="footer__role">Cirurgiã-dentista · CRO-SP 163702</p>
+      </div>
+      <nav class="footer__links" aria-label="Rodapé">
+        <a href="#sobre">Sobre mim</a>
+        <a href="#tratamentos">Tratamentos</a>
+        <a href="#trabalho">Meu trabalho</a>
+        <a href="#contato">Contato</a>
+        <a href="https://www.instagram.com/dracatalinareyes" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+    </div>
+    <div class="container footer__legal">
+      <p>© <span id="year">2026</span> Dra. Catalina Reyes. Todos os direitos reservados.</p>
+      <p>Versão de demonstração.</p>
+    </div>
+  </footer>
+
+  <a class="wa-float" id="waFloat" href="https://wa.me/5511900000000?text=Ol%C3%A1%2C%20Dra.%20Catalina!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener" aria-label="Conversar pelo WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.600 15.100L2 22l5-1.300A10 10 0 1 0 12 2zm0 1.800a8.200 8.200 0 1 1-4.200 15.300l-.3-.2-2.900.8.8-2.800-.2-.3A8.200 8.200 0 0 1 12 3.800zM8.700 7.500c-.2 0-.5.100-.7.400-.3.300-1 1-1 2.400s1 2.800 1.200 3c.1.200 2 3.200 5 4.400 2.500 1 3 .8 3.500.7.600-.1 1.700-.7 1.900-1.400.2-.7.200-1.200.2-1.400l-.5-.3-1.700-.8c-.2-.1-.4-.1-.6.100l-.8 1c-.1.200-.3.200-.5.100-.3-.1-1.100-.4-2-1.200-.8-.7-1.300-1.500-1.500-1.800-.1-.3 0-.4.100-.5l.4-.5.300-.4v-.5l-.8-1.900c-.2-.5-.4-.4-.6-.4z"/></svg>
+  </a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
